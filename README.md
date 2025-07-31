@@ -1,2 +1,2 @@
-# prj-s-gcp-gcs
-Project Soumya GCP storage
+# Google Cloud Storage
+Procedure to create Google cloud storage through terraform
