@@ -23,7 +23,7 @@ module "my_logs_bucket" {
   project_id = var.gcp_project_id
   bucket_name = "${var.gcp_project_id}-my-logs"
   location    = "EUROPE-WEST1"
-  uniform_bucket_level_access = true # Example: set to false, though generally not recommended
+  uniform_bucket_level_access = true # Example: set to false, though generally not recommended.count.
   labels = {
     environment = "development"
     application = "my-app"
